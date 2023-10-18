@@ -9,6 +9,6 @@ public class Main {
         var sample = new Sample().field("test"); // this is fine
 
         var builder = new OkHttpClient.Builder()
-            .dispatcher(new Dispatcher()); // this is not
+            .dispatcher(new Dispatcher()); // TODO this is not
     }
 }
